@@ -1,19 +1,18 @@
-import React from 'react';
-import HomeScreen from '../screens/HomeScreen';
-import ProfileScreen from '../screens/ProfileScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import HomeScreen from '../screens/HomeScreen'
+import ProfileScreen from '../screens/ProfileScreen'
+import SettingsScreen from '../screens/ReferralScreen'
 
 const TabContent = ({ selectedTab }) => {
-    switch (selectedTab) {
-        case 'Home':
-            return <HomeScreen />;
-        case 'Profile':
-            return <ProfileScreen />;
-        case 'Settings':
-            return <SettingsScreen />;
-        default:
-            return <HomeScreen />;
-    }
-};
+	switch (selectedTab) {
+		case 'Home':
+			return <HomeScreen />
+		case 'Profile':
+			return <ProfileScreen />
+		case 'Settings':
+			return <SettingsScreen />
+		default:
+			return <HomeScreen />
+	}
+}
 
-export default TabContent;
+export default TabContent

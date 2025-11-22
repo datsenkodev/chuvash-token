@@ -1,27 +1,27 @@
 // src/index.js
-import { initTelegramApp } from './services/telegram.js';
-import { initNavigation } from './utils/navigation.js';
-import { renderHomeScreen } from './screens/HomeScreen.js';
+import { initTelegramApp } from './services/telegram.js'
+import { initNavigation } from './utils/navigation.js'
+import { renderHomeScreen } from './screens/HomeScreen.js'
 
 // Initialize Telegram Mini App
-const tg = initTelegramApp();
+const tg = initTelegramApp()
 
 // Set username in header
-const usernameElement = document.getElementById('username');
+const usernameElement = document.getElementById('username')
 if (tg.initDataUnsafe?.user) {
-    usernameElement.textContent = `@${tg.initDataUnsafe.user.username || tg.initDataUnsafe.user.first_name}`;
+	usernameElement.textContent = `${tg.initDataUnsafe.user.username || tg.initDataUnsafe.user.first_name}`
 } else {
-    usernameElement.textContent = '@username';
+	usernameElement.textContent = 'username'
 }
 
 // Initialize withdraw button
-const withdrawBtn = document.getElementById('withdrawBtn');
+const withdrawBtn = document.getElementById('withdrawBtn')
 withdrawBtn.addEventListener('click', () => {
-    tg.showAlert('Withdraw functionality coming soon!');
-});
+	tg.showAlert('Withdraw functionality coming soon!')
+})
 
 // Initialize navigation
-initNavigation();
+initNavigation()
 
 // Load home screen by default
-renderHomeScreen();
+renderHomeScreen()

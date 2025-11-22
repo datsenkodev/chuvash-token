@@ -1,16 +1,16 @@
 // src/screens/ProfileScreen.js
 
 export function renderProfileScreen() {
-    const mainContent = document.getElementById('mainContent');
-    const tg = window.Telegram.WebApp;
-    const user = tg.initDataUnsafe?.user;
+	const mainContent = document.getElementById('mainContent')
+	const tg = window.Telegram.WebApp
+	const user = tg.initDataUnsafe?.user
 
-    mainContent.innerHTML = `
+	mainContent.innerHTML = `
         <div class="screen profile-screen">
             <div class="profile-header">
                 <div class="profile-avatar">${user?.first_name?.charAt(0) || 'U'}</div>
                 <h2>${user?.first_name || 'User'} ${user?.last_name || ''}</h2>
-                <p class="profile-username">@${user?.username || 'username'}</p>
+                <p class="profile-username">${user?.username || 'username'}</p>
             </div>
             <div class="profile-stats">
                 <div class="stat-item">
@@ -27,5 +27,5 @@ export function renderProfileScreen() {
                 </div>
             </div>
         </div>
-    `;
+    `
 }
