@@ -14,10 +14,18 @@ if (tg.initDataUnsafe?.user) {
 	usernameElement.textContent = 'username'
 }
 
-// Initialize withdraw button
-const withdrawBtn = document.getElementById('withdrawBtn')
-withdrawBtn.addEventListener('click', () => {
-	tg.showAlert('Withdraw functionality coming soon!')
+// Withdraw buttons handler - use event delegation
+document.addEventListener('click', e => {
+	if (e.target.classList.contains('withdraw-btn') || e.target.closest('.withdraw-btn')) {
+		console.log('Withdraw button clicked via delegation')
+		import('./screens/WithdrawScreen.js')
+			.then(module => {
+				module.renderWithdrawScreen()
+			})
+			.catch(err => {
+				console.error('Error loading WithdrawScreen:', err)
+			})
+	}
 })
 
 // Initialize navigation

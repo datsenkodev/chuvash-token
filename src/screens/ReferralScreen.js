@@ -69,6 +69,16 @@ export function renderReferralScreen() {
 							<span class="text-12 font-semibold">23,434 <span class="text-gold text-[0.6875rem]">$BLC</span></span>
 						</div>
 					</div>
+					<div class="flex items-center justify-between mb-4 pb-4 border-b border-[rgba(71,_71,_71,_0.3);]">
+						<div class="flex items-center gap-2">
+							<img src="../public/images/temp/friend4.png" alt="Quinlan Nordhoff" class="size-8 rounded-full flex-shrink-0" />
+							<p class="heading-sm">Quinlan Nordhoff</p>
+						</div>
+						<div class="flex items-center gap-2">
+							<img src="../public/images/home-icon.svg" alt="BLC Icon" class="size-4 flex-shrink-0" />
+							<span class="text-12 font-semibold">23,434 <span class="text-gold text-[0.6875rem]">$BLC</span></span>
+						</div>
+					</div>
 					<div class="flex items-center justify-between">
 						<div class="flex items-center gap-2">
 							<img src="../public/images/temp/friend3.png" alt="Francesco Streich" class="size-8 rounded-full flex-shrink-0" />
@@ -84,8 +94,8 @@ export function renderReferralScreen() {
 
 			<!-- Invite Button -->
 			<div class="fixed bottom-[105px] left-0 right-0 px-4 border-t border-[#474747] bg-[#201915] py-3">
-				<div class="flex gap-2">
-					<button id="inviteBtn" class="flex-1 bg-white text-black font-semibold py-4 rounded-[46px] flex items-center justify-center gap-1">
+				<div class="flex gap-px">
+					<button id="inviteBtn" class="btn btn--white grow">
 						<span>Invite Friend</span>
 						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -105,7 +115,7 @@ export function renderReferralScreen() {
 							<path d="M6.25 10H12.9167" stroke="#171614" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 						</svg>
 					</button>
-					<button id="copyLinkBtn" class="bg-white text-black p-4 rounded-3xl">
+					<button id="copyLinkBtn" class="btn btn--white !rounded-2xl">
 						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path
 								d="M13.3337 13.3334V15.6667C13.3337 16.6001 13.3337 17.0668 13.152 17.4233C12.9922 17.7369 12.7372 17.9919 12.4236 18.1517C12.0671 18.3334 11.6004 18.3334 10.667 18.3334H4.33366C3.40024 18.3334 2.93353 18.3334 2.57701 18.1517C2.2634 17.9919 2.00844 17.7369 1.84865 17.4233C1.66699 17.0668 1.66699 16.6001 1.66699 15.6667V9.33335C1.66699 8.39993 1.66699 7.93322 1.84865 7.5767C2.00844 7.2631 2.2634 7.00813 2.57701 6.84834C2.93353 6.66669 3.40024 6.66669 4.33366 6.66669H6.66699M9.33366 13.3334H15.667C16.6004 13.3334 17.0671 13.3334 17.4236 13.1517C17.7372 12.9919 17.9922 12.7369 18.152 12.4233C18.3337 12.0668 18.3337 11.6001 18.3337 10.6667V4.33335C18.3337 3.39993 18.3337 2.93322 18.152 2.5767C17.9922 2.2631 17.7372 2.00813 17.4236 1.84834C17.0671 1.66669 16.6004 1.66669 15.667 1.66669H9.33366C8.40024 1.66669 7.93353 1.66669 7.57701 1.84834C7.2634 2.00813 7.00844 2.2631 6.84865 2.5767C6.66699 2.93322 6.66699 3.39993 6.66699 4.33335V10.6667C6.66699 11.6001 6.66699 12.0668 6.84865 12.4233C7.00844 12.7369 7.2634 12.9919 7.57701 13.1517C7.93353 13.3334 8.40024 13.3334 9.33366 13.3334Z"
