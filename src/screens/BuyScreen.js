@@ -5,7 +5,7 @@ export function renderBuyScreen() {
 	const tg = window.Telegram.WebApp
 
 	mainContent.innerHTML = /* html */ `
-        <div class="screen buy-screen px-4">
+        <div class="screen buy-screen px-4 flex flex-col">
 			<!-- Header with Back Button -->
 			<button id="backBtn" class="flex items-center mb-2 gap-1.5 text-white hover:text-white/80 transition-colors">
 				<svg xmlns="http://www.w3.org/2000/svg" class="size-3 shrink-0" fill="none" viewBox="0 0 20 20" stroke="currentColor">
@@ -79,7 +79,7 @@ export function renderBuyScreen() {
 			</div>
 
 			<!-- Continue Button -->
-			<button id="continueBtn" class="btn btn--white--sm w-full mb-4">Continue</button>
+			<button id="continueBtn" class="btn btn--white--sm w-full mt-auto">Continue</button>
 		</div>
     `
 
@@ -170,7 +170,7 @@ export function renderBuyScreen() {
 	// Confirmation Screen
 	function renderConfirmationScreen(amount, currency, receiveText) {
 		mainContent.innerHTML = /* html */ `
-            <div class="screen buy-screen px-4 pb-24">
+            <div class="screen buy-screen px-4 flex flex-col">
 				<!-- Header with Back Button -->
 				<button id="backToForm" class="flex items-center mb-2 gap-1.5 text-white hover:text-white/80 transition-colors">
 					<svg xmlns="http://www.w3.org/2000/svg" class="size-3 shrink-0" fill="none" viewBox="0 0 20 20" stroke="currentColor">
@@ -193,10 +193,8 @@ export function renderBuyScreen() {
 					</div>
 				</div>
 
-				<!-- Buy Button (Fixed at bottom) -->
-				<div class="fixed bottom-[114px] left-0 right-0 px-4">
-					<button id="confirmBuyBtn" class="btn btn--white--sm w-full">Buy</button>
-				</div>
+				<!-- Buy Button  -->
+				<button id="confirmBuyBtn" class="btn btn--white--sm w-full mt-auto">Buy</button>
 			</div>
         `
 

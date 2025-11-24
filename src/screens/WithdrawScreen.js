@@ -5,7 +5,7 @@ export function renderWithdrawScreen() {
 	const tg = window.Telegram.WebApp
 
 	mainContent.innerHTML = /* html */ `
-        <div class="screen buy-screen px-4">
+        <div class="screen buy-screen px-4 flex flex-col h-full">
 			<!-- Header with Back Button -->
 			<button id="backBtn" class="flex items-center mb-2 gap-1.5 text-white hover:text-white/80 transition-colors">
 				<svg xmlns="http://www.w3.org/2000/svg" class="size-3 shrink-0" fill="none" viewBox="0 0 20 20" stroke="currentColor">
@@ -17,46 +17,44 @@ export function renderWithdrawScreen() {
 			<h2 class="heading-2xl text-center mb-6">Withdraw BLC</h2>
 
 			<!-- Send Section -->
-			<div class="mb-6">
-				<!-- Currency Select and Input -->
-				<div class="glass-block p-6 mb-2">
-					<div class="flex justify-between items-center mb-4">
-						<label class="heading-normal">Send</label>
-						<span class="text-xs text-white/50">You Send</span>
-					</div>
-					<div class="flex items-center justify-between mb-3">
-						<!-- Custom Currency Selector -->
-						<div class="flex items-center gap-2 cursor-pointer">
-							<img id="selectedCurrencyIcon" src="/public/images/currencies/blc.svg" alt="BLC" class="size-8" />
-							<span id="selectedCurrencyText" class="heading-sm">BLC</span>
-						</div>
-
-						<input type="number" id="sendAmount" class="bg-transparent border-none heading-sm text-right outline-none w-24" placeholder="1.5" value="1.5" step="0.01" />
-					</div>
-					<div class="flex justify-between items-center">
-						<span class="text-xs text-white/70">Balance:</span>
-						<span class="text-xs text-white/70" id="balance">320 322</span>
-					</div>
+			<!-- Currency Select and Input -->
+			<div class="glass-block p-6 mb-2">
+				<div class="flex justify-between items-center mb-4">
+					<label class="heading-normal">Send</label>
+					<span class="text-xs text-white/50">You Send</span>
 				</div>
-
-				<!-- Receive Section -->
-				<div class="mb-20">
-					<!-- Receive Display -->
-					<div class="glass-block p-6">
-						<div class="flex justify-between items-center mb-3">
-							<label class="heading-sm">Receive</label>
-							<span class="text-xs text-white/50">You Receive</span>
-						</div>
-						<div class="flex items-center gap-2">
-							<img src="/public/images/currencies/blc.svg" alt="BLC" class="size-4" />
-							<span class="text-sm font-medium text-white" id="receiveAmount">1.5 <span class="text-white/60">(BLC)</span></span>
-						</div>
+				<div class="flex items-center justify-between mb-3">
+					<!-- Custom Currency Selector -->
+					<div class="flex items-center gap-2 cursor-pointer">
+						<img id="selectedCurrencyIcon" src="/public/images/currencies/blc.svg" alt="BLC" class="size-8" />
+						<span id="selectedCurrencyText" class="heading-sm">BLC</span>
 					</div>
-				</div>
 
-				<!-- Continue Button -->
-				<button id="continueBtn" class="btn btn--white--sm w-full mb-4">Continue</button>
+					<input type="number" id="sendAmount" class="bg-transparent border-none heading-sm text-right outline-none w-24" placeholder="1.5" value="1.5" step="0.01" />
+				</div>
+				<div class="flex justify-between items-center">
+					<span class="text-xs text-white/70">Balance:</span>
+					<span class="text-xs text-white/70" id="balance">320 322</span>
+				</div>
 			</div>
+
+			<!-- Receive Section -->
+			<div class="mb-20">
+				<!-- Receive Display -->
+				<div class="glass-block p-6">
+					<div class="flex justify-between items-center mb-3">
+						<label class="heading-sm">Receive</label>
+						<span class="text-xs text-white/50">You Receive</span>
+					</div>
+					<div class="flex items-center gap-2">
+						<img src="/public/images/currencies/blc.svg" alt="BLC" class="size-4" />
+						<span class="text-sm font-medium text-white" id="receiveAmount">1.5 <span class="text-white/60">(BLC)</span></span>
+					</div>
+				</div>
+			</div>
+
+			<!-- Continue Button -->
+			<button id="continueBtn" class="btn btn--white--sm w-full mt-auto">Continue</button>
 		</div>
     `
 
@@ -111,7 +109,7 @@ export function renderWithdrawScreen() {
 	// Confirmation Screen
 	function renderConfirmationScreen(amount, currency, receiveText) {
 		mainContent.innerHTML = /* html */ `
-            <div class="screen buy-screen px-4 pb-24">
+            <div class="screen buy-screen px-4 flex flex-col">
 				<!-- Header with Back Button -->
 				<button id="backToForm" class="flex items-center mb-2 gap-1.5 text-white hover:text-white/80 transition-colors">
 					<svg xmlns="http://www.w3.org/2000/svg" class="size-3 shrink-0" fill="none" viewBox="0 0 20 20" stroke="currentColor">
@@ -134,10 +132,8 @@ export function renderWithdrawScreen() {
 					</div>
 				</div>
 
-				<!-- Buy Button (Fixed at bottom) -->
-				<div class="fixed bottom-[114px] left-0 right-0 px-4">
-					<button id="confirmBuyBtn" class="btn btn--white--sm w-full">Buy</button>
-				</div>
+				<!-- Buy Button -->
+				<button id="confirmBuyBtn" class="btn btn--white--sm w-full mt-auto">Withdraw</button>
 			</div>
         `
 
