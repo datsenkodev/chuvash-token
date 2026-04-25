@@ -1,7 +1,7 @@
 // src/index.js
 import { initTelegramApp } from './services/telegram.js'
 import { initNavigation } from './utils/navigation.js'
-import { renderHomeScreen } from './screens/HomeScreen.js'
+import { renderWelcomeScreen } from './screens/WelcomeScreen.js'
 
 // Initialize Telegram Mini App
 const tg = initTelegramApp()
@@ -31,5 +31,5 @@ document.addEventListener('click', e => {
 // Initialize navigation
 initNavigation()
 
-// Load home screen by default
-renderHomeScreen()
+// Load welcome screen by default
+renderWelcomeScreen()

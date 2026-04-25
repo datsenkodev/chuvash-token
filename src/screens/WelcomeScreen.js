@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link href="./style.css" rel="stylesheet" />
-        <link href="css/onboard.css" rel="stylesheet"/>
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body>
+// src/screens/HomeScreen.js
+
+export function renderWelcomeScreen() {
+	const mainContent = document.getElementById('mainContent')
+	mainContent.innerHTML = /* html */ `
         <main  class="self-stretch flex text-white font-bold text-[52px] align-text-top" data-name="Онбординг">
             <div class="flex flex-col frame justify-between items-center relative bg-black min-h-[812px] min-w-[375px] w-full mx-auto px-5" data-name="Добро пожаловать">
                 <div  class="flex flex-col frame items-center self-stretch w-full" data-name="Frame 1453203457">
@@ -77,5 +71,14 @@
             </div>
         </div>
     </main>
-</body>
-</html>
+    `
+
+	// Add event listeners
+	const buttons = mainContent.querySelectorAll('.block-btn')
+	buttons.forEach(btn => {
+		btn.addEventListener('click', e => {
+			const blockText = e.target.closest('.block').querySelector('h3').textContent
+			window.Telegram.WebApp.showAlert(`${blockText} clicked!`)
+		})
+	})
+}
