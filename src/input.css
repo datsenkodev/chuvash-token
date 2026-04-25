@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer components {
+  .typography {
+    color: var(--color-gray-950);
+    a {
+      color: var(--color-blue-500);
+      &:hover {
+        color: var(--color-blue-800);
+      }
+    }
+  }
+}
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+}

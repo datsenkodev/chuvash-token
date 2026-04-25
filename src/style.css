@@ -15,6 +15,8 @@
     --default-mono-font-family: var(--font-mono);
   }
 }
+
+
 @layer base {
   *, ::after, ::before, ::backdrop, ::file-selector-button {
     box-sizing: border-box;
@@ -194,6 +196,9 @@
   .top-\[23px\] {
     top: 23px;
   }
+  .top-\[82px\] {
+    top: 82px;
+  }
   .top-\[25\%\] {
     top: 25%;
   }
@@ -221,6 +226,9 @@
   .left-\[26px\] {
     left: 26px;
   }
+  .left-\[29px\] {
+    left: 29px;
+  }
   .left-\[49\.7px\] {
     left: 49.7px;
   }
@@ -244,6 +252,9 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .mt-\[114px\] {
+    margin-top: 114px;
   }
   .mr-\[21px\] {
     margin-right: 21px;
@@ -320,6 +331,9 @@
   .h-\[100px\] {
     height: 100px;
   }
+  .h-\[267px\] {
+    height: 267px;
+  }
   .h-\[812\.79px\] {
     height: 812.79px;
   }
@@ -331,6 +345,9 @@
   }
   .min-h-\[22px\] {
     min-height: 22px;
+  }
+  .min-h-\[375px\] {
+    min-height: 375px;
   }
   .w-\[1\.33px\] {
     width: 1.33px;
@@ -386,6 +403,9 @@
   .w-\[134px\] {
     width: 134px;
   }
+  .w-\[267px\] {
+    width: 267px;
+  }
   .w-\[375px\] {
     width: 375px;
   }
@@ -403,6 +423,9 @@
   }
   .max-w-1\/3 {
     max-width: calc(1 / 3 * 100%);
+  }
+  .min-w-\[375px\] {
+    min-width: 375px;
   }
   .min-w-\[37\.3px\] {
     min-width: 37.3px;
@@ -648,6 +671,9 @@
   }
   .opacity-\[40\] {
     opacity: 40;
+  }
+  .opacity-\[50\] {
+    opacity: 50;
   }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
