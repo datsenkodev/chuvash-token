@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..800&display=swap');
+
+@font-face {
+  font-family: "Outfit-Regular";
+  font-weight: 100 400;
+  font-style: auto;
+  src: url('/fonts/Outfit/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'SF Pro';
+  font-weight: auto;
+  src: url('/fonts/SF Pro Display/SF-Pro-Display-Light.otf') format('opentype'), url("https://applesocial.s3.amazonaws.com/assets/css/fonts/sanfrancisco/sanfranciscodisplay-light-webfont.woff");
+  /* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+  font-family:'SFProRounded-Medium';
+  font-weight: 500;
+  src: url('/fonts/SF Pro Display/SF-Pro-Display-Medium.otf') format('opentype'), url("https://applesocial.s3.amazonaws.com/assets/css/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  /* (C) 2015 Apple Inc. All rights reserved.*/
+}
+
+@font-face {
+  font-family: "Outfit-Medium";
+  font-weight: 100 500;
+  font-style: auto;
+  src: url('/fonts/Outfit/Outfit-Medium.ttf') format('truetype');
+}

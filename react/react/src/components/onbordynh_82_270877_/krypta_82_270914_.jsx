@@ -1,0 +1,232 @@
+
+import React from 'react';
+import styles from '../App.module.css';
+
+export default function krypta_82_270914_() {
+
+  return (
+
+    <div  class="bg-[rgb(0,0,0)] border-[0.87px] flex flex-col flex-nowrap frame gap-[8.72px] h-[812.79px] items-CENTER justify-between overflow-clip pl-[20.00px] pr-[20.00px] w-[375.00px] z-[3]" >
+      <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.87px] frame h-[1110.76px] w-[825.58px] z-[2]" >
+        <svg  class="border-[0.87px] h-[709.88px] rectangle w-[327.03px] z-[2]"  strokeWidth="0.87px" xmlns="http://www.w3.org/2000/svg"/>
+
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.32px] group h-[1110.76px] w-[825.58px] z-[3]" >
+          <svg  class="border-[0.14px] h-[275.86px] vector w-[231.74px] z-[2]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[275.86px] vector w-[231.74px] z-[3]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[275.86px] vector w-[231.75px] z-[4]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[541.59px] vector w-[181.38px] z-[5]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[541.60px] vector w-[181.41px] z-[6]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[241.81px] vector w-[304.52px] z-[7]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[241.81px] vector w-[304.48px] z-[8]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+
+          <svg  class="border-[0.14px] h-[880.24px] vector w-[362.11px] z-[9]"  strokeWidth="0.14px" xmlns="http://www.w3.org/2000/svg"/>
+        </div>
+
+        <ellipse  strokeWidth="0.70px" xmlns="http://www.w3.org/2000/svg"/>
+
+        <ellipse  strokeWidth="0.70px" xmlns="http://www.w3.org/2000/svg"/>
+
+        <ellipse  strokeWidth="0.70px" xmlns="http://www.w3.org/2000/svg"/>
+
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[2.12px] h-[141.28px] instance w-[141.28px] z-[7]" >
+          <div  class="bg-[rgba(0,0,0,0.000000)] border-[2.12px] group h-[110.37px] w-[110.37px] z-[2]" >
+            <svg  class="border-[2.12px] h-[141.28px] hidden rounded-[8.48px] star w-[141.28px] z-[2]"  strokeWidth="2.12px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <div  class="bg-[rgba(0,0,0,0.000000)] border-[2.12px] group h-[110.37px] w-[110.37px] z-[3]" >
+              <svg  class="border-[2.12px] h-[110.37px] vector w-[110.37px] z-[2]"  strokeWidth="2.12px" xmlns="http://www.w3.org/2000/svg"/>
+
+              <svg  class="border-[2.12px] h-[97.13px] opacity-18 vector w-[97.13px] z-[3]"  strokeWidth="2.12px" xmlns="http://www.w3.org/2000/svg"/>
+            </div>
+
+            <svg  class="border-[2.12px] h-[92.71px] vector w-[92.71px] z-[4]"  strokeWidth="2.12px" xmlns="http://www.w3.org/2000/svg"/>
+          </div>
+
+          <svg  class="border-[3.18px] h-[61.81px] hidden vector w-[61.81px] z-[3]"  height="61.81" preserveAspectRatio="xMidYMid meet" strokeWidth="3.18px" viewBox="0 0 61.81 61.81" width="61.81" xmlns="http://www.w3.org/2000/svg"/>
+        </div>
+
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.71px] h-[194.26px] instance w-[194.26px] z-[8]" >
+          <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.71px] group h-[151.76px] w-[151.76px] z-[2]" >
+            <svg  class="border-[0.71px] h-[194.26px] hidden rounded-[2.83px] star w-[194.26px] z-[2]"  strokeWidth="0.71px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.71px] group h-[151.76px] w-[151.76px] z-[3]" >
+              <svg  class="border-[0.71px] h-[151.76px] vector w-[151.76px] z-[2]"  strokeWidth="0.71px" xmlns="http://www.w3.org/2000/svg"/>
+
+              <svg  class="border-[0.71px] h-[133.55px] opacity-18 vector w-[133.55px] z-[3]"  strokeWidth="0.71px" xmlns="http://www.w3.org/2000/svg"/>
+            </div>
+
+            <svg  class="border-[0.71px] h-[127.48px] vector w-[127.48px] z-[4]"  strokeWidth="0.71px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <svg  class="border-[1.06px] h-[84.99px] hidden vector w-[84.99px] z-[5]"  height="84.99" preserveAspectRatio="xMidYMid meet" strokeWidth="1.06px" viewBox="0 0 84.99 84.99" width="84.99" xmlns="http://www.w3.org/2000/svg"/>
+          </div>
+        </div>
+
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[2.83px] h-[247.24px] instance opacity-89 w-[247.24px] z-[9]" >
+          <div  class="bg-[rgba(0,0,0,0.000000)] border-[2.83px] group h-[193.15px] w-[193.16px] z-[2]" >
+            <svg  class="border-[2.83px] h-[247.24px] hidden rounded-[11.30px] star w-[247.24px] z-[2]"  strokeWidth="2.83px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <div  class="bg-[rgba(0,0,0,0.000000)] border-[2.83px] group h-[193.15px] w-[193.16px] z-[3]" >
+              <svg  class="border-[2.83px] h-[193.15px] vector w-[193.16px] z-[2]"  strokeWidth="2.83px" xmlns="http://www.w3.org/2000/svg"/>
+
+              <svg  class="border-[2.83px] h-[169.98px] opacity-18 vector w-[169.98px] z-[3]"  strokeWidth="2.83px" xmlns="http://www.w3.org/2000/svg"/>
+            </div>
+
+            <svg  class="border-[2.83px] h-[162.25px] vector w-[162.25px] z-[4]"  strokeWidth="2.83px" xmlns="http://www.w3.org/2000/svg"/>
+          </div>
+
+          <svg  class="border-[4.24px] h-[108.17px] hidden vector w-[108.17px] z-[3]"  height="108.17" preserveAspectRatio="xMidYMid meet" strokeWidth="4.24px" viewBox="0 0 108.17 108.17" width="108.17" xmlns="http://www.w3.org/2000/svg"/>
+        </div>
+      </div>
+
+      <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex-col flex-nowrap frame gap-[55.81px] h-[0.00px] hidden self-stretch w-[347.09px]" >
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex flex-nowrap flex-row frame gap-[6.98px] h-[0.00px] self-stretch w-[347.09px]" >
+          <svg  class="border-[2.62px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(255,255,255)" strokeLinecap="round" strokeWidth="2.62px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <svg  class="border-[2.62px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(255,255,255)" strokeLinecap="round" strokeWidth="2.62px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <svg  class="border-[2.62px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(255,255,255)" strokeLinecap="round" strokeWidth="2.62px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <svg  class="border-[2.62px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(255,255,255)" strokeLinecap="round" strokeWidth="2.62px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+        </div>
+      </div>
+
+      <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col flex-nowrap frame gap-[24.00px] h-[235.91px] items-CENTER w-[375.00px]" >
+        <header  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col flex-nowrap h-[90.00px] instance w-[375.00px]" >
+          <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col flex-nowrap frame gap-[4.00px] h-[90.00px] items-CENTER self-stretch w-[375.00px]" >
+            <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-nowrap flex-row frame h-[54.00px] items-end justify-between overflow-clip self-stretch w-[375.00px]" >
+              <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex frame grow-1.0 h-[54.00px] w-[125.00px]" >
+                <span />
+              </div>
+
+              <svg  class="border-[1.00px] flex h-[37.00px] vector w-[125.00px]"  strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg"/>
+
+              <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex frame grow-1.0 h-[54.00px] w-[125.00px]" >
+                <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.00px] group h-[13.00px] rounded-[] w-[27.33px] z-[2]" >
+                  <svg  class="border-[1.00px] h-[13.00px] opacity-34 rectangle rounded-[4.30px] w-[25.00px] z-[2]"  stroke="8:2272" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+
+                  <svg  class="border-[0.00px] h-[4.08px] opacity-40 vector w-[1.33px] z-[3]"  strokeWidth="0.00px" xmlns="http://www.w3.org/2000/svg"/>
+
+                  <svg  class="border-[0.00px] h-[9.00px] rectangle rounded-[2.50px] w-[21.00px] z-[4]"  strokeWidth="0.00px" xmlns="http://www.w3.org/2000/svg"/>
+                </div>
+
+                <svg  class="border-[0.00px] h-[12.33px] vector w-[17.14px] z-[3]"  strokeWidth="0.00px" xmlns="http://www.w3.org/2000/svg"/>
+
+                <svg  class="border-[0.00px] h-[12.23px] vector w-[19.20px] z-[4]"  strokeWidth="0.00px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+            </div>
+
+            <header  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-nowrap flex-row frame gap-[217.00px] h-[32.00px] items-CENTER justify-between pl-[16.00px] pr-[16.00px] self-stretch w-[375.00px]" >
+              <button  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] cursor-pointer flex flex-col flex-nowrap h-[32.00px] instance items-CENTER justify-CENTER w-[73.00px]" >
+                <div  class="bg-[rgba(65,63,64,0.400000)] border-[1.00px] flex flex-nowrap flex-row gap-[2.00px] h-[32.00px] instance items-CENTER overflow-clip pb-[4.00px] pl-[4.00px] pr-[12.00px] pt-[4.00px] rounded-[32.00px] self-stretch w-[73.00px]" >
+                  <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-nowrap flex-row frame gap-[10.00px] h-[24.00px] items-CENTER justify-between w-[24.00px]" >
+                    <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex h-[24.00px] instance w-[14.00px]" >
+                      <svg  class="border-[1.71px] h-[12.00px] vector w-[12.00px] z-[2]"  strokeLinecap="round" strokeWidth="1.71px" xmlns="http://www.w3.org/2000/svg"/>
+                    </div>
+                  </div>
+
+                  <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex-nowrap flex-row frame gap-[10.00px] h-[24.00px] hidden items-CENTER justify-between w-[24.00px]" >
+                    <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex h-[24.00px] instance w-[14.00px]" >
+                      <svg  class="border-[2.00px] h-[8.00px] vector w-[14.00px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.00px" xmlns="http://www.w3.org/2000/svg"/>
+                    </div>
+                  </div>
+
+                  <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-nowrap flex-row frame h-[22.00px] items-CENTER justify-CENTER pb-[6.00px] pt-[6.00px] w-[31.00px]" >
+                    <span  class="flex" />
+                  </div>
+                </div>
+              </button>
+
+              <button  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] cursor-pointer flex h-[32.00px] instance w-[81.00px]" >
+                <div  class="bg-[rgba(65,63,64,0.400000)] border-[1.00px] flex flex-nowrap flex-row gap-[16.00px] h-[32.00px] instance items-CENTER overflow-clip pb-[4.00px] pl-[8.00px] pr-[8.00px] pt-[4.00px] rounded-[32.00px] w-[80.00px] z-[2]" >
+                  <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-nowrap flex-row frame gap-[10.00px] h-[24.00px] items-CENTER justify-between w-[24.00px]" >
+                    <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex h-[24.00px] instance w-[14.00px]" >
+                      <svg  class="border-[2.00px] h-[8.00px] vector w-[14.00px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.00px" xmlns="http://www.w3.org/2000/svg"/>
+                    </div>
+                  </div>
+
+                  <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-nowrap flex-row frame gap-[10.00px] h-[24.00px] items-CENTER justify-between w-[24.00px]" >
+                    <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex h-[24.00px] instance w-[14.00px]" >
+                      <svg  class="border-[0.60px] h-[16.00px] vector w-[4.00px] z-[2]"  strokeWidth="0.60px" xmlns="http://www.w3.org/2000/svg"/>
+                    </div>
+                  </div>
+
+                  <div  class="bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex-nowrap flex-row frame h-[22.00px] hidden items-CENTER justify-CENTER pb-[6.00px] pt-[6.00px] w-[35.00px]" >
+                    <span  class="flex" />
+                  </div>
+                </div>
+              </button>
+            </header>
+          </div>
+        </header>
+
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex flex-col flex-nowrap frame gap-[27.91px] h-[121.91px] w-[347.09px]" >
+          <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex flex-nowrap flex-row frame gap-[6.98px] h-[0.00px] self-stretch w-[347.09px]" >
+            <svg  class="border-[1.74px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(255,255,255)" strokeLinecap="round" strokeWidth="1.74px" xmlns="http://www.w3.org/2000/svg">
+              <div />
+            </svg>
+
+            <svg  class="border-[1.74px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(255,255,255)" strokeLinecap="round" strokeWidth="1.74px" xmlns="http://www.w3.org/2000/svg">
+              <div />
+            </svg>
+
+            <svg  class="border-[1.74px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(153,153,153)" strokeLinecap="round" strokeWidth="1.74px" xmlns="http://www.w3.org/2000/svg">
+              <div />
+            </svg>
+
+            <svg  class="border-[1.74px] flex grow-1.0 h-[0.00px] vector w-[81.54px]"  stroke="rgb(153,153,153)" strokeLinecap="round" strokeWidth="1.74px" xmlns="http://www.w3.org/2000/svg">
+              <div />
+            </svg>
+          </div>
+
+          <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex flex-col flex-nowrap frame gap-[13.95px] h-[94.00px] self-stretch w-[347.09px]" >
+            <span  class="flex" />
+          </div>
+        </div>
+      </div>
+
+      <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex flex-col flex-nowrap frame gap-[13.95px] h-[172.91px] items-CENTER justify-CENTER w-[347.09px]" >
+        <span  class="flex" />
+
+        <div  class="bg-[rgba(0,0,0,0.000000)] border-[0.87px] flex flex-nowrap flex-row gap-[6.98px] h-[45.00px] instance left-[1314.00px] m-[0 auto auto 0] relative top-[727.00px] w-[347.09px]" >
+          <button  class="bg-[rgba(71,71,71,0.030000)] border-[1.00px] border-[rgb(255,255,255)] border-solid cursor-pointer flex flex-nowrap flex-row gap-[10.00px] h-[45.00px] instance items-CENTER justify-CENTER pb-[8.00px] pl-[16.00px] pr-[16.00px] pt-[8.00px] rounded-[423243.00px] w-[104.00px]" >
+            <svg  class="border-[1.50px] flex h-[0.00px] left-0 top-0 vector w-[15.00px]"  stroke="rgb(255,255,255)" strokeLinecap="butt" strokeWidth="1.50px" xmlns="http://www.w3.org/2000/svg">
+              <div />
+            </svg>
+
+            <span  class="flex" />
+          </button>
+
+          <button  class="bg-[rgb(255,255,255)] border-[1.00px] border-[rgb(71,71,71)] border-solid cursor-pointer flex flex-nowrap flex-row gap-[10.00px] grow-1.0 h-[45.00px] instance items-CENTER justify-between pb-[8.00px] pl-[24.00px] pr-[24.00px] pt-[8.00px] rounded-[423243.00px] w-[236.12px]" >
+            <span  class="flex" />
+
+            <svg  class="border-[1.50px] flex h-[0.00px] vector w-[15.00px]"  stroke="rgb(0,0,0)" strokeLinecap="butt" strokeWidth="1.50px" xmlns="http://www.w3.org/2000/svg">
+              <div />
+            </svg>
+          </button>
+        </div>
+
+        <div  class="bg-[rgb(19,18,17)] border-[1.00px] flex h-[34.00px] instance w-[375.00px]" >
+          <svg  class="border-[0.00px] h-[5.00px] rectangle rounded-[100.00px] w-[134.00px] z-[2]"  strokeWidth="0.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  );
+}

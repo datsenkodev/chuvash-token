@@ -1,0 +1,26 @@
+
+import React from 'react';
+import styles from '../App.module.css';
+
+export default function property_126_7544_() {
+
+  return (
+
+    <component  class="Property 1=Переход bg-[rgba(0,0,0,0.000000)] border-[0.00px 0.00px 1.00px 0.00px] border-[rgb(71,71,71)] border-solid component flex flex-row gap-[16.00px] h-[48.00px] items-CENTER justify-between p-[8.00px 5.00px 8.00px 0] property_126_7544_ relative shrink-0 w-[347.09px]" >
+      <span />
+
+      <svg  class="absolute border-[1.00px] flex-[1.0] h-[0.00px] hidden left-[51.00px] top-[10.00px] vector w-[301.00px] z-[3]"  stroke="rgb(128,128,128)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+        <div />
+      </svg>
+
+      <div  class="absolute aspect-[1.00] bg-[rgba(0,0,0,0.000000)] border-[1.33px] h-[32.00px] instance left-0 overflow-clip top-0 w-[32.00px] z-[4]" >
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.33px] group h-[7.33px] left-[8.33px] top-[12.33px] w-[15.33px] z-[2]" >
+          <svg  class="absolute border-[2.00px] h-[7.33px] left-[0.00px] min-h-[7.33px] min-w-[15.33px] top-[0.00px] vector w-[15.33px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.00px" xmlns="http://www.w3.org/2000/svg"/>
+        </div>
+      </div>
+
+      <div />
+    </component>
+
+  );
+}

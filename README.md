@@ -1,192 +1,74 @@
-# Chuvash Token - Telegram Mini App
+# BulCoin Telegram Mini App
 
-A Telegram Mini App built with vanilla JavaScript featuring bottom tab navigation, user profile, and backend integration capabilities.
+Monorepo: **React + Vite + Tailwind v4 + TanStack Query** (frontend) + **Fastify + PostgreSQL** (API).
 
-## Features
-
-- ✅ Bottom tab navigation (Home, Referral, Profile)
-- ✅ Header with Telegram username and Withdraw button
-- ✅ Two content blocks on home screen
-- ✅ Telegram WebApp API integration
-- ✅ Backend-ready API service
-- ✅ Dark theme UI
-- ✅ Responsive design
-
-## Project Structure
-
-```
-chuvash-token/
-├── public/
-│   ├── index.html          # Main HTML file
-│   └── manifest.json       # App manifest
-├── src/
-│   ├── index.js           # App entry point
-│   ├── app.js             # App state manager
-│   ├── components/        # Reusable components
-│   ├── screens/           # Screen components
-│   │   ├── HomeScreen.js      # Home with content blocks
-│   │   ├── ProfileScreen.js   # User profile
-│   │   └── SettingsScreen.js  # Referral screen
-│   ├── services/
-│   │   ├── api.js         # Backend API integration
-│   │   └── telegram.js    # Telegram WebApp API wrapper
-│   ├── styles/
-│   │   └── main.css       # Global styles
-│   └── utils/
-│       ├── helpers.js     # Helper functions
-│       └── navigation.js  # Navigation logic
-└── package.json
-
-```
-
-## Setup & Development
-
-### 1. Local Development
+## Quick start
 
 ```bash
-# Serve the app locally
+# 1. Dependencies
+npm install
+
+# 2. Environment
+cp .env.example .env
+
+# 3. PostgreSQL
+docker compose up -d
+
+# 4. Migrate & seed
+npm run db:migrate
+npm run db:seed
+
+# 5. Dev (web :5173 + api :3000)
 npm run dev
 ```
 
-This will start a local server at `http://localhost:8080`
+Open http://localhost:5173 — in dev mode API accepts requests without Telegram (`DEV_MODE=true`).
 
-### 2. Testing with Telegram
+## Production install
 
-Since Telegram Mini Apps only work inside Telegram, you need to:
+1. Fill `.env` (see `.env.example`): `BOT_TOKEN`, `TONAPI_KEY`, `TONCENTER_API_KEY`, `BLC_JETTON_MASTER`, `ADMIN_TELEGRAM_IDS`, `WALLET_ENCRYPTION_KEY`, `DEV_MODE=false`.
+2. `npm run db:migrate && npm run db:seed && npm run dev:api` — note the **server wallet address** in logs.
+3. Fund that wallet with BLC (distribution bankroll).
+4. Open Mini App → **Profile → Admin panel** (`/admin`):
+   - Save jetton masters & bot username
+   - **Sync from chain**
+   - **Launch project** (starts in distribution mode)
+5. Deposits: users pay via Buy with on-chain memo; chain watcher credits ledger. Withdrawals: queued and sent as jetton transfers.
 
-1. **Create a Telegram Bot**
-   - Talk to [@BotFather](https://t.me/BotFather)
-   - Use `/newbot` command
-   - Save your bot token
+TonAPI webhook (optional): `POST /api/webhooks/chain/deposit` with header `X-Webhook-Secret`.
 
-2. **Set up Mini App**
-   - Use `/newapp` command in BotFather
-   - Provide app details
-   - Upload your app URL (must be HTTPS)
+## Scripts
 
-3. **Deploy your app**
-   - Use services like:
-     - GitHub Pages
-     - Netlify
-     - Vercel
-     - Cloudflare Pages
-   
-   **Note:** Must use HTTPS!
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Frontend + API |
+| `npm run dev:web` | Vite only |
+| `npm run dev:api` | API only |
+| `npm run build` | Production build |
+| `npm run db:migrate` | Apply SQL schema |
+| `npm run db:seed` | Seed cards, onboarding, dev balance |
 
-### 3. Backend Integration
+## Structure
 
-The app includes a ready-to-use API service in `src/services/api.js`:
-
-```javascript
-// Update API_BASE_URL in src/services/api.js
-const API_BASE_URL = 'https://your-backend-api.com/api';
+```
+src/           React app (legacy UI)
+server/src/    Fastify API, economy analyzer, cards, ledger
+public/        Static assets
+docs/          TZ & specs
 ```
 
-**Backend Requirements:**
-- Validate Telegram init data for security
-- Example endpoint structure:
-  - `GET /api/users/:userId/balance`
-  - `POST /api/users/:userId/claim`
-  - `GET /api/users/:userId/referrals`
+## Docs
 
-**Security:**
-- App sends `X-Telegram-Init-Data` header
-- Backend must validate this data using Telegram's crypto
-- [Validation Guide](https://core.telegram.org/bots/webapps#validating-data-received-via-the-mini-app)
+- [FINAL_TZ.md](docs/FINAL_TZ.md)
+- [WORK_PLAN.md](docs/WORK_PLAN.md)
+- [SPEC_API_ECONOMY.md](docs/SPEC_API_ECONOMY.md) — API, cards, economy B+C+ratchet
 
-## How Navigation Works
+## Telegram production
 
-The app uses vanilla JavaScript with a simple navigation system:
+1. Set `BOT_TOKEN`, `DEV_MODE=false`
+2. Deploy with HTTPS
+3. Configure bot Mini App URL in BotFather
 
-1. Bottom tabs have `data-tab` attributes
-2. Clicking a tab calls `navigateTo(tab)`
-3. The appropriate screen render function is called
-4. Content is injected into `#mainContent`
+## Admin
 
-## Key Files Explained
-
-### `src/index.js`
-App initialization, Telegram WebApp setup, event listeners
-
-### `src/services/telegram.js`
-Wrapper for Telegram WebApp API:
-- `initTelegramApp()` - Initialize and configure
-- `getTelegramUser()` - Get user data
-- `showAlert()` - Show alerts
-- `hapticFeedback()` - Haptic feedback
-
-### `src/services/api.js`
-Backend communication with authentication headers
-
-### `src/utils/navigation.js`
-Tab navigation and screen rendering logic
-
-## Common Issues & Solutions
-
-### 1. App doesn't work outside Telegram
-**Normal behavior** - Mini Apps only work when opened via Telegram bot
-
-### 2. "Telegram is not defined" error
-Make sure `telegram-web-app.js` is loaded:
-```html
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-```
-
-### 3. Styles not loading
-Check that CSS path in `index.html` is correct:
-```html
-<link rel="stylesheet" href="../src/styles/main.css">
-```
-
-### 4. HTTPS required
-Telegram requires HTTPS for Mini Apps. Use ngrok for local testing:
-```bash
-npx ngrok http 8080
-```
-
-## Deployment
-
-### GitHub Pages
-```bash
-# Build is not needed for vanilla JS
-git add .
-git commit -m "Deploy to GitHub Pages"
-git push origin main
-```
-
-Enable GitHub Pages in repository settings → Pages → Source: main branch
-
-### Netlify
-1. Drag and drop `public` folder to [Netlify](https://app.netlify.com)
-2. Or connect GitHub repo
-3. Set publish directory: `public`
-
-## Testing Checklist
-
-- [ ] Test all three tabs (Home, Referral, Profile)
-- [ ] Verify username displays correctly
-- [ ] Test Withdraw button
-- [ ] Test content block buttons
-- [ ] Test referral link copy
-- [ ] Verify on iOS and Android
-- [ ] Test backend API calls
-- [ ] Check haptic feedback
-
-## Next Steps
-
-1. Replace placeholder data with real backend calls
-2. Add authentication flow
-3. Implement actual withdraw functionality
-4. Add loading states
-5. Add error handling
-6. Implement real token balance tracking
-
-## Resources
-
-- [Telegram Mini Apps Documentation](https://core.telegram.org/bots/webapps)
-- [Telegram WebApp API](https://core.telegram.org/bots/webapps#initializing-mini-apps)
-- [Bot API](https://core.telegram.org/bots/api)
-
-## License
-
-MIT
+Set `ADMIN_TELEGRAM_IDS` in `.env`. Admin routes: `/api/admin/*`

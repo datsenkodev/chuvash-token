@@ -1,0 +1,15 @@
+-- Idempotent patches for existing databases
+ALTER TABLE deposits ADD COLUMN IF NOT EXISTS amount_nano BIGINT;
+ALTER TABLE deposits ADD COLUMN IF NOT EXISTS expected_blc BIGINT;
+ALTER TABLE deposits ADD COLUMN IF NOT EXISTS memo TEXT;
+ALTER TABLE deposits ADD COLUMN IF NOT EXISTS quote_source TEXT;
+ALTER TABLE deposits ADD COLUMN IF NOT EXISTS expires_at TIMESTAMPTZ;
+ALTER TABLE withdrawals ADD COLUMN IF NOT EXISTS error_message TEXT;
+ALTER TABLE withdrawals ADD COLUMN IF NOT EXISTS processed_at TIMESTAMPTZ;
+
+CREATE TABLE IF NOT EXISTS chain_state (
+  id INT PRIMARY KEY DEFAULT 1 CHECK (id = 1),
+  last_event_id TEXT,
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+INSERT INTO chain_state (id) VALUES (1) ON CONFLICT DO NOTHING;

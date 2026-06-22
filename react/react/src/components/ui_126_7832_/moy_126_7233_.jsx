@@ -1,0 +1,376 @@
+
+import React from 'react';
+import styles from '../App.module.css';
+
+export default function moy_126_7233_() {
+
+  return (
+
+    <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] border-[rgb(138,56,245)] border-solid component_set h-[752.00px] left-[100.00px] overflow-clip rounded-[5.00px] top-[1185.00px] w-[387.09px] z-[31] z-[9]" >
+      <component  class="bg-[rgba(71,71,71,0.300000)] border-[2.00px] component flex flex-col gap-[16.00px] h-[232.00px] h-fit left-[20.00px] m-[0 auto auto 0] p-[16.00px] property_126_7232_ relative rounded-[16.00px] top-[20.00px] w-[347.09px]" >
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] gap-[normal] h-[40.00px] h-fit items-CENTER justify-between left-[16.00px] self-stretch top-[16.00px] w-[315.09px] w-full z-[2]" >
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[38.00px] h-fit items-CENTER left-[0.00px] top-[1.00px] w-[71.00px] w-fit z-[2]" >
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[38.00px] h-fit left-[0.00px] top-[0.00px] w-[71.00px] w-fit z-[2]" >
+              <button  class="absolute bg-[rgba(71,71,71,0.350000)] border-[1.00px] border-[rgb(71,71,71)] border-solid cursor-pointer flex flex-row frame gap-[8.00px] h-[38.00px] items-CENTER left-[0.00px] p-[8.00px 16.00px] rounded-[39.00px] top-[0.00px] w-[71.00px] w-fit z-[2]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] h-[24.00px] hidden instance left-[71.00px] overflow-clip top-[7.00px] w-[24.00px] z-[3]" >
+                  <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] group h-[9.99px] left-[7.01px] top-[7.01px] w-[9.99px] z-[2]" >
+                    <svg  class="absolute border-[1.50px] h-[9.99px] left-[0.00px] min-h-[9.99px] min-w-[9.99px] top-[0.00px] vector w-[9.99px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.50px" xmlns="http://www.w3.org/2000/svg"/>
+                  </div>
+                </div>
+
+                <div />
+              </button>
+            </div>
+          </div>
+
+          <div  class="absolute bg-[rgb(255,255,255)] border-[1.43px] border-[rgb(0,0,0)] border-solid frame h-[40.00px] left-[275.09px] overflow-clip rounded-[6177.14px] top-[0.00px] w-[40.00px] z-[3]" >
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.43px] frame h-[17.14px] left-[11.43px] overflow-clip top-[11.43px] w-[17.14px] z-[2]" >
+              <svg  class="absolute border-[1.43px] border-[rgb(0,0,0)] border-solid h-[13.81px] left-[1.78px] min-h-[13.81px] min-w-[13.81px] rounded-[] top-[1.55px] vector w-[13.81px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.43px" xmlns="http://www.w3.org/2000/svg">
+                <div />
+              </svg>
+            </div>
+
+            <div />
+          </div>
+        </div>
+
+        <span />
+
+        <span />
+
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.80px] h-[19.20px] hidden instance left-[311.89px] overflow-clip top-[17.90px] w-[19.20px] z-[5]" >
+          <svg  class="absolute border-[0.40px] h-[21.50px] left-[1.25px] min-h-[21.50px] min-w-[21.50px] top-[1.25px] vector w-[21.50px] z-[2]"  stroke="rgb(128,128,128)" strokeLinecap="butt" strokeLinejoin="round" strokeWidth="0.40px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+        </div>
+
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[2.50px] flex flex-row frame gap-[10.00px] gap-[normal] h-[38.00px] items-CENTER justify-between left-[16.00px] rounded-[22.00px] self-stretch top-[178.00px] w-[315.09px] w-full z-[6]" >
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[37.00px] h-fit items-CENTER left-[0.00px] top-[0.50px] w-[128.00px] w-fit z-[2]" >
+            <ellipse  strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[37.00px] h-fit justify-end left-[43.00px] top-[0.00px] w-[85.00px] w-fit z-[3]" >
+              <span />
+
+              <span />
+            </div>
+          </div>
+
+          <svg  class="absolute border-[1.00px] h-[0.00px] left-0 line top-0 w-[25.00px] z-[3]"  stroke="rgb(71,71,71)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[34.00px] h-fit items-end justify-CENTER left-[154.55px] top-[2.00px] w-[72.00px] w-fit z-[4]" >
+            <span />
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.75px] flex flex-row frame gap-[3.00px] h-[12.00px] h-fit items-CENTER left-[0.00px] top-[22.00px] w-[72.00px] w-fit z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[0.00px] overflow-clip top-[0.00px] w-[12.00px] z-[2]" >
+                <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[1.00px] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[15.00px] overflow-clip top-[0.00px] w-[12.00px] z-[3]" >
+                <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[1.00px] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[30.00px] overflow-clip top-[0.00px] w-[12.00px] z-[4]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[45.00px] overflow-clip top-[0.00px] w-[12.00px] z-[5]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[60.00px] overflow-clip top-[0.00px] w-[12.00px] z-[6]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+            </div>
+          </div>
+
+          <svg  class="absolute border-[1.00px] h-[0.00px] left-0 line top-0 w-[25.00px] z-[5]"  stroke="rgb(71,71,71)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[37.00px] h-fit items-end justify-CENTER left-[253.09px] top-[0.50px] w-[62.00px] w-fit z-[6]" >
+            <span />
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[15.00px] h-fit justify-end left-[0.00px] top-[22.00px] w-[62.00px] w-fit z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[4.00px] h-[15.00px] h-fit items-CENTER left-[0.00px] top-[0.00px] w-[24.00px] w-fit z-[2]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[12.00px] overflow-clip top-[1.50px] w-[12.00px] z-[3]" >
+                  <svg  class="absolute border-[0.75px] border-[rgb(255,56,60)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-02ddcbf91969bcfdc33d527bd90799ed65bd46d2/6013-13)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+                </div>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[4.00px] h-[15.00px] h-fit items-CENTER left-[32.00px] top-[0.00px] w-[30.00px] w-fit z-[3]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[18.00px] overflow-clip top-[1.50px] w-[12.00px] z-[3]" >
+                  <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div />
+        </div>
+
+        <div />
+      </component>
+
+      <component  class="bg-[rgba(71,71,71,0.300000)] border-[2.00px] component flex flex-col gap-[16.00px] h-[232.00px] h-fit left-[20.00px] m-[0 auto auto 0] p-[16.00px] property_126_7231_ relative rounded-[16.00px] top-[260.00px] w-[347.09px]" >
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[40.00px] h-fit items-CENTER left-[16.00px] top-[16.00px] w-[315.09px] w-fit z-[2]" >
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[40.00px] h-fit items-CENTER justify-between left-[0.00px] top-[0.00px] w-[315.09px] z-[2]" >
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[38.00px] h-fit items-CENTER left-[0.00px] top-[1.00px] w-[71.00px] w-fit z-[2]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[38.00px] h-fit left-[0.00px] top-[0.00px] w-[71.00px] w-fit z-[2]" >
+                <button  class="absolute bg-[rgba(71,71,71,0.350000)] border-[1.00px] border-[rgb(71,71,71)] border-solid cursor-pointer flex flex-row frame gap-[8.00px] h-[38.00px] items-CENTER left-[0.00px] p-[8.00px 16.00px] rounded-[39.00px] top-[0.00px] w-[71.00px] w-fit z-[2]" >
+                  <span />
+
+                  <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] h-[24.00px] hidden instance left-[71.00px] overflow-clip top-[7.00px] w-[24.00px] z-[3]" >
+                    <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] group h-[9.99px] left-[7.01px] top-[7.01px] w-[9.99px] z-[2]" >
+                      <svg  class="absolute border-[1.50px] h-[9.99px] left-[0.00px] min-h-[9.99px] min-w-[9.99px] top-[0.00px] vector w-[9.99px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.50px" xmlns="http://www.w3.org/2000/svg"/>
+                    </div>
+                  </div>
+
+                  <div />
+                </button>
+              </div>
+            </div>
+
+            <div  class="absolute bg-[rgb(255,255,255)] border-[1.43px] border-[rgb(0,0,0)] border-solid frame h-[40.00px] left-[275.09px] overflow-clip rounded-[6177.14px] top-[0.00px] w-[40.00px] z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.43px] frame h-[17.14px] left-[11.43px] overflow-clip top-[11.43px] w-[17.14px] z-[2]" >
+                <svg  class="absolute border-[1.43px] border-[rgb(0,0,0)] border-solid h-[13.81px] left-[1.78px] min-h-[13.81px] min-w-[13.81px] rounded-[] top-[1.55px] vector w-[13.81px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.43px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div />
+            </div>
+          </div>
+        </div>
+
+        <span />
+
+        <span />
+
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.80px] h-[19.20px] hidden instance left-[311.89px] overflow-clip top-[17.90px] w-[19.20px] z-[5]" >
+          <svg  class="absolute border-[0.40px] h-[21.50px] left-[1.25px] min-h-[21.50px] min-w-[21.50px] top-[1.25px] vector w-[21.50px] z-[2]"  stroke="rgb(128,128,128)" strokeLinecap="butt" strokeLinejoin="round" strokeWidth="0.40px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+        </div>
+
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[2.50px] flex flex-row frame gap-[10.00px] gap-[normal] h-[38.00px] items-CENTER justify-between left-[16.00px] rounded-[22.00px] self-stretch top-[178.00px] w-[315.09px] w-full z-[6]" >
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[37.00px] h-fit items-CENTER left-[0.00px] top-[0.50px] w-[128.00px] w-fit z-[2]" >
+            <ellipse  strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[37.00px] h-fit justify-end left-[43.00px] top-[0.00px] w-[85.00px] w-fit z-[3]" >
+              <span />
+
+              <span />
+            </div>
+          </div>
+
+          <svg  class="absolute border-[1.00px] h-[0.00px] left-0 line top-0 w-[25.00px] z-[3]"  stroke="rgb(71,71,71)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[34.00px] h-fit items-end justify-CENTER left-[154.55px] top-[2.00px] w-[72.00px] w-fit z-[4]" >
+            <span />
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.75px] flex flex-row frame gap-[3.00px] h-[12.00px] h-fit items-CENTER left-[0.00px] top-[22.00px] w-[72.00px] w-fit z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[0.00px] overflow-clip top-[0.00px] w-[12.00px] z-[2]" >
+                <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[1.00px] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[15.00px] overflow-clip top-[0.00px] w-[12.00px] z-[3]" >
+                <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[1.00px] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[30.00px] overflow-clip top-[0.00px] w-[12.00px] z-[4]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[45.00px] overflow-clip top-[0.00px] w-[12.00px] z-[5]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[60.00px] overflow-clip top-[0.00px] w-[12.00px] z-[6]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+            </div>
+          </div>
+
+          <svg  class="absolute border-[1.00px] h-[0.00px] left-0 line top-0 w-[25.00px] z-[5]"  stroke="rgb(71,71,71)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[37.00px] h-fit items-end justify-CENTER left-[253.09px] top-[0.50px] w-[62.00px] w-fit z-[6]" >
+            <span />
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[15.00px] h-fit justify-end left-[0.00px] top-[22.00px] w-[62.00px] w-fit z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[4.00px] h-[15.00px] h-fit items-CENTER left-[0.00px] top-[0.00px] w-[24.00px] w-fit z-[2]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[12.00px] overflow-clip top-[1.50px] w-[12.00px] z-[3]" >
+                  <svg  class="absolute border-[0.75px] border-[rgb(255,56,60)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-02ddcbf91969bcfdc33d527bd90799ed65bd46d2/6013-13)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+                </div>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[4.00px] h-[15.00px] h-fit items-CENTER left-[32.00px] top-[0.00px] w-[30.00px] w-fit z-[3]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[18.00px] overflow-clip top-[1.50px] w-[12.00px] z-[3]" >
+                  <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div />
+        </div>
+
+        <div />
+      </component>
+
+      <component  class="bg-[rgba(71,71,71,0.300000)] border-[2.00px] component flex flex-col gap-[16.00px] h-[232.00px] h-fit left-[20.00px] m-[0 auto auto 0] p-[16.00px] property_126_7230_ relative rounded-[16.00px] top-[500.00px] w-[347.09px]" >
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] gap-[normal] h-[40.00px] h-fit items-CENTER justify-between left-[16.00px] self-stretch top-[16.00px] w-[315.09px] w-full z-[2]" >
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[38.00px] h-fit items-CENTER left-[0.00px] top-[1.00px] w-[71.00px] w-fit z-[2]" >
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[38.00px] h-fit left-[0.00px] top-[0.00px] w-[71.00px] w-fit z-[2]" >
+              <button  class="absolute bg-[rgba(71,71,71,0.350000)] border-[1.00px] border-[rgb(71,71,71)] border-solid cursor-pointer flex flex-row frame gap-[8.00px] h-[38.00px] items-CENTER left-[0.00px] p-[8.00px 16.00px] rounded-[39.00px] top-[0.00px] w-[71.00px] w-fit z-[2]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] h-[24.00px] hidden instance left-[71.00px] overflow-clip top-[7.00px] w-[24.00px] z-[3]" >
+                  <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] group h-[9.99px] left-[7.01px] top-[7.01px] w-[9.99px] z-[2]" >
+                    <svg  class="absolute border-[1.50px] h-[9.99px] left-[0.00px] min-h-[9.99px] min-w-[9.99px] top-[0.00px] vector w-[9.99px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.50px" xmlns="http://www.w3.org/2000/svg"/>
+                  </div>
+                </div>
+
+                <div />
+              </button>
+            </div>
+          </div>
+
+          <div  class="absolute bg-[rgb(255,255,255)] border-[1.43px] border-[rgb(0,0,0)] border-solid frame h-[40.00px] left-[275.09px] overflow-clip rounded-[6177.14px] top-[0.00px] w-[40.00px] z-[3]" >
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.43px] frame h-[17.14px] left-[11.43px] overflow-clip top-[11.43px] w-[17.14px] z-[2]" >
+              <svg  class="absolute border-[1.43px] border-[rgb(0,0,0)] border-solid h-[13.81px] left-[1.78px] min-h-[13.81px] min-w-[13.81px] rounded-[] top-[1.55px] vector w-[13.81px] z-[2]"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.43px" xmlns="http://www.w3.org/2000/svg">
+                <div />
+              </svg>
+            </div>
+
+            <div />
+          </div>
+        </div>
+
+        <span />
+
+        <span />
+
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.80px] h-[19.20px] hidden instance left-[311.89px] overflow-clip top-[17.90px] w-[19.20px] z-[5]" >
+          <svg  class="absolute border-[0.40px] h-[21.50px] left-[1.25px] min-h-[21.50px] min-w-[21.50px] top-[1.25px] vector w-[21.50px] z-[2]"  stroke="rgb(128,128,128)" strokeLinecap="butt" strokeLinejoin="round" strokeWidth="0.40px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+        </div>
+
+        <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[2.50px] flex flex-row frame gap-[10.00px] gap-[normal] h-[38.00px] items-CENTER justify-between left-[16.00px] rounded-[22.00px] self-stretch top-[178.00px] w-[315.09px] w-full z-[6]" >
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[37.00px] h-fit items-CENTER left-[0.00px] top-[0.50px] w-[128.00px] w-fit z-[2]" >
+            <ellipse  strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg"/>
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[37.00px] h-fit justify-end left-[43.00px] top-[0.00px] w-[85.00px] w-fit z-[3]" >
+              <span />
+
+              <span />
+            </div>
+          </div>
+
+          <svg  class="absolute border-[1.00px] h-[0.00px] left-0 line top-0 w-[25.00px] z-[3]"  stroke="rgb(71,71,71)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[34.00px] h-fit items-end justify-CENTER left-[154.55px] top-[2.00px] w-[72.00px] w-fit z-[4]" >
+            <span />
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.75px] flex flex-row frame gap-[3.00px] h-[12.00px] h-fit items-CENTER left-[0.00px] top-[22.00px] w-[72.00px] w-fit z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[0.00px] overflow-clip top-[0.00px] w-[12.00px] z-[2]" >
+                <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[1.00px] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[15.00px] overflow-clip top-[0.00px] w-[12.00px] z-[3]" >
+                <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[1.00px] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                  <div />
+                </svg>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[30.00px] overflow-clip top-[0.00px] w-[12.00px] z-[4]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[45.00px] overflow-clip top-[0.00px] w-[12.00px] z-[5]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[60.00px] overflow-clip top-[0.00px] w-[12.00px] z-[6]" >
+                <svg  class="absolute border-[0.75px] h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] top-[1.00px] vector w-[10.00px] z-[2]"  strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg"/>
+              </div>
+            </div>
+          </div>
+
+          <svg  class="absolute border-[1.00px] h-[0.00px] left-0 line top-0 w-[25.00px] z-[5]"  stroke="rgb(71,71,71)" strokeLinecap="butt" strokeWidth="1.00px" xmlns="http://www.w3.org/2000/svg">
+            <div />
+          </svg>
+
+          <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-col frame h-[37.00px] h-fit items-end justify-CENTER left-[253.09px] top-[0.50px] w-[62.00px] w-fit z-[6]" >
+            <span />
+
+            <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[8.00px] h-[15.00px] h-fit justify-end left-[0.00px] top-[22.00px] w-[62.00px] w-fit z-[3]" >
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[4.00px] h-[15.00px] h-fit items-CENTER left-[0.00px] top-[0.00px] w-[24.00px] w-fit z-[2]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[12.00px] overflow-clip top-[1.50px] w-[12.00px] z-[3]" >
+                  <svg  class="absolute border-[0.75px] border-[rgb(255,56,60)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-02ddcbf91969bcfdc33d527bd90799ed65bd46d2/6013-13)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+                </div>
+              </div>
+
+              <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[1.00px] flex flex-row frame gap-[4.00px] h-[15.00px] h-fit items-CENTER left-[32.00px] top-[0.00px] w-[30.00px] w-fit z-[3]" >
+                <span />
+
+                <div  class="absolute bg-[rgba(0,0,0,0.000000)] border-[0.50px] h-[12.00px] instance left-[18.00px] overflow-clip top-[1.50px] w-[12.00px] z-[3]" >
+                  <svg  class="absolute border-[0.75px] border-[rgb(128,128,128)] border-solid h-[10.00px] left-[1.00px] min-h-[10.00px] min-w-[10.00px] rounded-[] top-[1.00px] vector w-[10.00px] z-[2]"  stroke="var(--figma-variableid-8-2280)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0.75px" xmlns="http://www.w3.org/2000/svg">
+                    <div />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div />
+        </div>
+
+        <div />
+      </component>
+
+      <div />
+    </div>
+
+  );
+}
