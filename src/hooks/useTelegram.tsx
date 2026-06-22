@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, ReactNode } from 'react'
+import { createContext, useContext, useEffect, useMemo, type ReactNode } from 'react'
 
 interface TelegramContextValue {
   user: { id: number; username?: string; firstName?: string; lastName?: string } | null
