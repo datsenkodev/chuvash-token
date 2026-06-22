@@ -24,18 +24,13 @@ npm run dev
 
 Open http://localhost:5173 — in dev mode API accepts requests without Telegram (`DEV_MODE=true`).
 
-## Production install
+## Production
 
-1. Fill `.env` (see `.env.example`): `BOT_TOKEN`, `TONAPI_KEY`, `TONCENTER_API_KEY`, `BLC_JETTON_MASTER`, `ADMIN_TELEGRAM_IDS`, `WALLET_ENCRYPTION_KEY`, `DEV_MODE=false`.
-2. `npm run db:migrate && npm run db:seed && npm run dev:api` — note the **server wallet address** in logs.
-3. Fund that wallet with BLC (distribution bankroll).
-4. Open Mini App → **Profile → Admin panel** (`/admin`):
-   - Save jetton masters & bot username
-   - **Sync from chain**
-   - **Launch project** (starts in distribution mode)
-5. Deposits: users pay via Buy with on-chain memo; chain watcher credits ledger. Withdrawals: queued and sent as jetton transfers.
+См. **[docs/DEPLOY.md](docs/DEPLOY.md)** — ключи, nginx, админка, чеклист.
 
-TonAPI webhook (optional): `POST /api/webhooks/chain/deposit` with header `X-Webhook-Secret`.
+```bash
+npm run build && npm run start:prod
+```
 
 ## Scripts
 
@@ -45,6 +40,7 @@ TonAPI webhook (optional): `POST /api/webhooks/chain/deposit` with header `X-Web
 | `npm run dev:web` | Vite only |
 | `npm run dev:api` | API only |
 | `npm run build` | Production build |
+| `npm run start:prod` | Run API (after build) |
 | `npm run db:migrate` | Apply SQL schema |
 | `npm run db:seed` | Seed cards, onboarding, dev balance |
 
