@@ -16,7 +16,7 @@
   "dependencies": {
     "@fastify/cors": "^10.0.1",
     "@tanstack/react-query": "^5.62.8",
-    "@ton/core": "^0.60.1",
+    "@ton/core": "^0.62.1",
     "@ton/crypto": "^3.3.0",
     "@ton/ton": "^15.2.1",
     "dotenv": "^16.4.7",
