@@ -8,6 +8,7 @@
     "dev:web": "vite",
     "dev:api": "tsx watch server/src/index.ts",
     "build": "tsc -b && vite build && tsc -p server/tsconfig.json",
+    "build:web": "vite build",
     "start:prod": "node server/dist/index.js",
     "preview": "vite preview",
     "db:migrate": "tsx server/src/db/migrate.ts",
