@@ -1,6 +1,48 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+build/
+server/dist/
+*.tsbuildinfo
+
+# Environment & secrets
 .env
+.env.local
+.env.*.local
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / tooling cache
+.vite/
+.cache/
+
+# Deploy platforms
+.vercel/
+.netlify/
+
+# OS
 .DS_Store
+Thumbs.db
+Desktop.ini
 __MACOSX/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Docker local data (if bind-mounted)
+pgdata/

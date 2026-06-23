@@ -1,6 +1,11 @@
+import path from 'path'
+import { fileURLToPath } from 'url'
 import { query } from './pool.js'
 import { env, getAdminIds } from '../config/env.js'
 import { setSetting } from '../services/settings.service.js'
+import { migrate } from './migrate.js'
+
+const __filename = fileURLToPath(import.meta.url)
 
 export async function seed() {
   const cards = await query(`SELECT COUNT(*) as c FROM card_templates`)
@@ -78,6 +83,14 @@ export async function seed() {
   console.log('Seed complete')
 }
 
-if (process.argv[1]?.includes('seed')) {
-  import('./migrate.js').then(m => m.migrate()).then(() => seed()).then(() => process.exit(0))
+const isDirectRun = process.argv[1] && path.resolve(process.argv[1]) === __filename
+
+if (isDirectRun) {
+  migrate()
+    .then(() => seed())
+    .then(() => process.exit(0))
+    .catch(e => {
+      console.error(e)
+      process.exit(1)
+    })
 }

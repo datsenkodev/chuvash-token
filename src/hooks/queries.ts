@@ -66,7 +66,11 @@ export function useReferrals() {
 export function useDepositMethods() {
   return useQuery({
     queryKey: ['deposits', 'methods'],
-    queryFn: () => api.get<{ methods: { currency: string; enabled: boolean }[] }>('/api/deposits/methods'),
+    queryFn: () =>
+      api.get<{
+        routerStrategy?: string
+        methods: { currency: string; enabled: boolean; autoSwap: boolean }[]
+      }>('/api/deposits/methods'),
   })
 }
 
@@ -174,10 +178,26 @@ export function useOnboardingStatus() {
 
 // --- Admin ---
 
+export interface AdminSetupStatus {
+  launched: boolean
+  walletAddress: string | null
+  walletBalanceBlc: number
+  onChainBlc: number | null
+  canLaunch: boolean
+  setupMinWalletBlc: number
+  currentMode?: string
+  config?: {
+    blcJettonMaster: string
+    usdtJettonMaster: string
+    botUsername: string
+    tonApiConfigured?: boolean
+  }
+}
+
 export function useAdminSetup() {
   return useQuery({
     queryKey: ['admin', 'setup'],
-    queryFn: () => api.get<Record<string, unknown>>('/api/admin/setup/status'),
+    queryFn: () => api.get<AdminSetupStatus>('/api/admin/setup/status'),
   })
 }
 

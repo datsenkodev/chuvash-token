@@ -45,6 +45,8 @@ npm run build && npm run start:prod
 | `npm run db:migrate` | Apply SQL schema |
 | `npm run db:seed` | Seed cards, onboarding, dev balance |
 | `npm run setup:env` | Create `.env`, generate secrets |
+| `npm run verify` | Full build check (CI/Vercel) |
+| `npm run smoke` | Build + artifacts + API health (needs Postgres for API part) |
 
 ## Structure
 

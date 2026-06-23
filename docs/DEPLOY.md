@@ -115,8 +115,87 @@ BotFather → Menu Button → `https://your-domain.com`
 
 ---
 
-## 6. Чеклист
+## 7. Куда деплоить (схема)
+
+| Часть | Куда | Почему |
+|-------|------|--------|
+| **Frontend** (Mini App) | **Vercel** | Статика `dist/`, HTTPS из коробки |
+| **Backend** (Fastify + jobs) | **Railway / VPS / Render** | Постоянный процесс: chain watcher, cron, wallet |
+| **PostgreSQL** | Railway Postgres / Supabase / Neon | Нужна живая БД, не serverless без pg |
+
+**Не на Vercel API** — там нет долгоживущего процесса для опроса chain и отправки TON-транзакций.
+
+---
+
+## 8. Backend на Railway (рекомендуется)
+
+### 1. Сервисы в проекте
+
+1. **PostgreSQL** — Add → Database → PostgreSQL  
+2. **API** — Add → GitHub repo (тот же репозиторий)
+
+### 2. API service → Settings
+
+| Поле | Значение |
+|------|----------|
+| **Build Command** | `npm install && npm run build:api` |
+| **Start Command** | `npm run start:prod` |
+| **Root Directory** | `/` (корень репо) |
+
+Railway сам проставит `PORT`. `DATABASE_URL` — из Postgres (Variables → Reference).
+
+### 3. Variables (API)
+
+Скопируйте из `.env`:
+
+```
+BOT_TOKEN, BOT_USERNAME, ADMIN_TELEGRAM_IDS
+WALLET_ENCRYPTION_KEY
+TONAPI_KEY, TONCENTER_API_KEY
+BLC_JETTON_MASTER, USDT_JETTON_MASTER
+TON_NETWORK=mainnet
+DEV_MODE=false
+CHAIN_WEBHOOK_SECRET
+DEDUST_API_URL
+```
+
+При старте API сам делает `migrate` + `seed` + создаёт server wallet (смотри лог **Server wallet: EQ...**).
+
+### 4. Vercel → связать с API
+
+В Vercel → Environment Variables:
+
+```
+VITE_API_URL=https://your-app.up.railway.app
+```
+
+Без слэша в конце. Redeploy фронта.
+
+Проверка: `https://your-app.up.railway.app/api/health` → `{"status":"ok",...}`
+
+### 5. CORS
+
+API уже с `cors: { origin: true }` — запросы с Vercel-домена проходят.
+
+---
+
+## 9. Альтернативы Railway
+
+| Платформа | Плюсы |
+|-----------|--------|
+| **VPS** (Hetzner, DO) | Полный контроль, docker compose как локально |
+| **Render** | Web Service + Postgres, похоже на Railway |
+| **Fly.io** | Docker, несколько регионов |
+| **Neon + отдельный VPS** | Neon только БД, API на VPS |
+
+Минимум на VPS: `npm run build:api && npm run start:prod` + nginx + Postgres.
+
+---
+
+## 10. Чеклист
 
 - [ ] `setup:env` + ручные ключи
+- [ ] Vercel: фронт, `VITE_API_URL` → Railway
+- [ ] Railway: Postgres + API, env vars
 - [ ] HTTPS, BotFather URL
 - [ ] Launch + тест депозит/withdraw

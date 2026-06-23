@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url'
 import { pool } from './pool.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const __filename = fileURLToPath(import.meta.url)
 
 export async function migrate() {
   const schema = fs.readFileSync(path.join(__dirname, 'schema.sql'), 'utf-8')
@@ -13,7 +14,9 @@ export async function migrate() {
   console.log('Migration complete')
 }
 
-if (import.meta.url === `file://${process.argv[1]?.replace(/\\/g, '/')}`) {
+const isDirectRun = process.argv[1] && path.resolve(process.argv[1]) === __filename
+
+if (isDirectRun) {
   migrate()
     .then(() => process.exit(0))
     .catch(e => {

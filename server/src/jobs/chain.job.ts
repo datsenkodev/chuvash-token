@@ -1,15 +1,15 @@
 import { query } from '../db/pool.js'
 import { env } from '../config/env.js'
-import { expireOldDeposits, matchAndConfirmTransfer } from './deposit.service.js'
-import { processPendingWithdrawals } from './withdraw.service.js'
-import { syncWalletBalanceFromChain } from './setup.service.js'
-import { ensureServerTonForWithdrawals } from './gas.service.js'
+import { expireOldDeposits, matchAndConfirmTransfer } from '../services/deposit.service.js'
+import { processPendingWithdrawals } from '../services/withdraw.service.js'
+import { syncWalletBalanceFromChain } from '../services/setup.service.js'
+import { ensureServerTonForWithdrawals } from '../services/gas.service.js'
 import {
   getAccountEvents,
   isTonApiConfigured,
   parseEventTransfers,
-} from './tonapi.service.js'
-import { getServerWalletAddress } from './wallet.service.js'
+} from '../services/tonapi.service.js'
+import { getServerWalletAddress } from '../services/wallet.service.js'
 
 export async function runChainWatcher() {
   if (!env.TONAPI_KEY) return
