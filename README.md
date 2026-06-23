@@ -8,8 +8,9 @@ Monorepo: **React + Vite + Tailwind v4 + TanStack Query** (frontend) + **Fastify
 # 1. Dependencies
 npm install
 
-# 2. Environment
-cp .env.example .env
+# 2. Environment (.env + auto secrets)
+npm run setup:env
+# fill manual keys printed by the script
 
 # 3. PostgreSQL
 docker compose up -d
@@ -43,6 +44,7 @@ npm run build && npm run start:prod
 | `npm run start:prod` | Run API (after build) |
 | `npm run db:migrate` | Apply SQL schema |
 | `npm run db:seed` | Seed cards, onboarding, dev balance |
+| `npm run setup:env` | Create `.env`, generate secrets |
 
 ## Structure
 
