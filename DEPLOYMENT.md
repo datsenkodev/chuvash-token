@@ -38,15 +38,20 @@ https://[username].github.io/[repository-name]/
 - Build command: Leave empty
 - Publish directory: `public`
 
-### Option 3: Vercel
+### Option 3: Vercel (frontend only)
+
+API деплоится отдельно (VPS/Railway). На Vercel — только Mini App.
+
+1. Подключите репозиторий на [vercel.com](https://vercel.com)
+2. **Build Command:** `npm run build:web` (уже в `vercel.json`)
+3. **Output Directory:** `dist` (уже в `vercel.json`)
+4. Если в Dashboard вручную указан `build` — удалите, используйте `dist`
+5. Env (optional): `VITE_API_URL=https://your-api.example.com` — если API на другом домене
 
 ```bash
-npm install -g vercel
-cd public
-vercel
+npm run build:web
+vercel --prod
 ```
-
-Follow the prompts and your app will be deployed!
 
 ## Setting up the Telegram Bot
 
